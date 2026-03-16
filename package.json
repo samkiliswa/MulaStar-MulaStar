@@ -1,0 +1,23 @@
+{
+  "name": "mulastar",
+  "version": "1.0.0",
+  "description": "MulaStar - Make Money Online. Earn with TikTok, YouTube, blogging, trivia, Forex tutorials, and games.",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "node build.js",
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "mulastar",
+    "earn-money-online"
+  ],
+  "author": "MulaStar",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
